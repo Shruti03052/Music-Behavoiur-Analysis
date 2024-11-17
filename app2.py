@@ -11,7 +11,7 @@ from sklearn.metrics import accuracy_score, classification_report
 df = pd.read_csv('https://github.com/Shruti03052/Music-Listener-Behavoiur-Analysis/blob/main/Music%20prediction%20-%20Listeners%20-%20Sheet1.csv')
 
 # Load the training dataset for genre prediction
-train_data = pd.read_csv('C:\\Users\\Shruti\\Desktop\\cp\\de_lab_5\\train.csv')
+train_data = pd.read_csv('https://github.com/Shruti03052/Music-Listener-Behavoiur-Analysis/blob/main/train.csv')
 
 # Drop irrelevant columns from the training data
 train_data = train_data.drop(['instrumentalness', 'key'], axis=1)
