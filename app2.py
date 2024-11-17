@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, classification_report
 
 # Load your original music listening data for the Streamlit app
-df = pd.read_csv('https://raw.github.com/Shruti03052/Music-Listener-Behavoiur-Analysis/blob/main/Music%20prediction%20-%20Listeners%20-%20Sheet1.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/Shruti03052/Music-Listener-Behavoiur-Analysis/refs/heads/main/Music%20prediction%20-%20Listeners%20-%20Sheet1.csv')
 
 # Load the training dataset for genre prediction
 train_data = pd.read_csv('https://raw.githubusercontent.com/Shruti03052/Music-Listener-Behavoiur-Analysis/refs/heads/main/train.csv')
